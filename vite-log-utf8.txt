@@ -1,0 +1,93 @@
+﻿node.exe : X [ERROR] 
+Unexpected end of 
+file in JSON
+At C:\Program Files (
+x86)\nodejs\npx.ps1:2
+9 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : 
+NotSpecified: (X     
+[ERROR] Unexpected e 
+   nd of file in 
+JSON:St    ring) [], 
+RemoteExcep    tion
+    + 
+FullyQualifiedError  
+  Id : 
+NativeCommandErr    
+or
+ 
+
+    
+../package.json:1:0:
+      1 ظ¤é 
+        ظـ╡ ^
+
+[31mfailed to load 
+config from 
+D:\BOO\Graduation Pro
+ject\landing-page\vit
+e.config.ts[39m
+[31merror when 
+starting dev server:
+Error: Build failed 
+with 1 error:
+../package.json:1:0: 
+ERROR: Unexpected 
+end of file in JSON
+    at 
+failureErrorWithLog 
+(D:\BOO\Graduation Pr
+oject\landing-page\no
+de_modules\esbuild\li
+b\main.js:1472:15)
+    at 
+D:\BOO\Graduation Pro
+ject\landing-page\nod
+e_modules\esbuild\lib
+\main.js:945:25
+    at 
+runOnEndCallbacks 
+(D:\BOO\Graduation Pr
+oject\landing-page\no
+de_modules\esbuild\li
+b\main.js:1315:45)
+    at buildResponseT
+oResult 
+(D:\BOO\Graduation Pr
+oject\landing-page\no
+de_modules\esbuild\li
+b\main.js:943:7)
+    at 
+D:\BOO\Graduation Pro
+ject\landing-page\nod
+e_modules\esbuild\lib
+\main.js:970:16
+    at responseCallba
+cks.<computed> 
+(D:\BOO\Graduation Pr
+oject\landing-page\no
+de_modules\esbuild\li
+b\main.js:622:9)
+    at 
+handleIncomingPacket 
+(D:\BOO\Graduation Pr
+oject\landing-page\no
+de_modules\esbuild\li
+b\main.js:677:12)
+    at Socket.readFro
+mStdout 
+(D:\BOO\Graduation Pr
+oject\landing-page\no
+de_modules\esbuild\li
+b\main.js:600:7)
+    at Socket.emit 
+(node:events:518:28)
+    at addChunk (node
+:internal/streams/rea
+dable:561:12)[39m
+
