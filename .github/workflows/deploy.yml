@@ -26,8 +26,11 @@ jobs:
           rm -f package-lock.json
           npm install
       
+      - name: Fix permissions
+        run: chmod +x node_modules/.bin/vite node_modules/.bin/tsc
+      
       - name: Build
-        run: npx tsc && npx vite build
+        run: npm run build
       
       - name: List Files
         run: ls -R ./dist
